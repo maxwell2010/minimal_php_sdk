@@ -24,9 +24,7 @@ class MinimalDecimalClient
     
     // Константы для Decimal Chain
     const RPC_URLS = [
-        "https://node.decimalchain.com/web3",
-        "http://94.130.66.14/web3/",
-        "http://168.119.212.76/web3/"
+        "https://node.decimalchain.com/web3"
     ];
     
     const DECIMAL_RPC_URL = "http://94.130.66.14/web3/";
@@ -528,3 +526,4 @@ class MinimalDecimalClient
         return '0x' . $methodId . $toAddressEncoded . $amountEncoded;
     }
 }
+
