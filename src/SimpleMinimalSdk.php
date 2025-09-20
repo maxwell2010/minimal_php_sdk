@@ -8,7 +8,7 @@
 class SimpleMinimalSdk
 {
     // Константы для Decimal Chain
-    const DECIMAL_RPC_URL = "http://94.130.66.14/web3/";
+    const DECIMAL_RPC_URL = "https://node.decimalchain.com/web3/";
     const DECIMAL_CHAIN_ID = 75;
     const TOKEN_CENTER_ADDRESS = "0x9113ba675aa8f2ef0c068cee2cdabab95b6437fb";
     
@@ -241,3 +241,4 @@ class SimpleMinimalSdk
         ];
     }
 }
+
